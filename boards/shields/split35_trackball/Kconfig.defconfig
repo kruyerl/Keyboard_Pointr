@@ -1,0 +1,12 @@
+if SHIELD_SPLIT35_TRACKBALL_RIGHT
+    config ZMK_KEYBOARD_NAME
+        default "Split35 Trackball"
+
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default y
+endif
+
+if SHIELD_SPLIT35_TRACKBALL_LEFT || SHIELD_SPLIT35_TRACKBALL_RIGHT
+    config ZMK_SPLIT
+        default y
+endif
