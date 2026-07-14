@@ -18,15 +18,15 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: dactyl_manuform_5x7_left
     cmake-args: -DCONFIG_ZMK_BOARD_COMPAT=y
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: dactyl_manuform_5x7_right
     cmake-args: -DCONFIG_ZMK_BOARD_COMPAT=y
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: split35_trackball_left
     cmake-args: -DCONFIG_ZMK_BOARD_COMPAT=y
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: split35_trackball_right
     cmake-args: -DCONFIG_ZMK_BOARD_COMPAT=y
