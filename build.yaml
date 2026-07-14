@@ -20,9 +20,13 @@
 include:
   - board: nice_nano/nrf52840/zmk
     shield: dactyl_manuform_5x7_left
+    artifact-name: dactyl_manuform_5x7_left-nice_nano_nrf52840_zmk-zmk
   - board: nice_nano/nrf52840/zmk
     shield: dactyl_manuform_5x7_right
+    artifact-name: dactyl_manuform_5x7_right-nice_nano_nrf52840_zmk-zmk
   - board: nice_nano/nrf52840/zmk
     shield: split35_trackball_left
+    artifact-name: split35_trackball_left-nice_nano_nrf52840_zmk-zmk
   - board: nice_nano/nrf52840/zmk
     shield: split35_trackball_right
+    artifact-name: split35_trackball_right-nice_nano_nrf52840_zmk-zmk
