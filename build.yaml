@@ -24,5 +24,4 @@ include:
   - board: nice_nano/nrf52840/zmk
     shield: split35_trackball_right
     artifact-name: split35_trackball_right-nice_nano_nrf52840_zmk-zmk
-  - board: nice_nano//zmk
-    shield: settings_reset
+
